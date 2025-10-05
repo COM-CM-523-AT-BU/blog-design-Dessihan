@@ -2,3 +2,125 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    background-color: cornsilk;
+     font-family: "Red Hat Text", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+article {
+      max-width: 720px;
+      width: 90%;
+      padding: 60px 20px;
+      box-sizing: border-box;
+    }
+h1 {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2.8rem;
+      line-height: 1.2;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+h2 {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-size: 1.6rem;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+p  {
+    font-size: font-size: 1rem;
+    line-height: 1.8;
+    color:#222;
+      margin-bottom: 20px;
+    }
+img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 30px auto;
+      border-radius: 4px;
+    }
+    .caption {
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      margin-top: -10px;
+      margin-bottom: 30px;
+      font-style: italic;
+    }
+blockquote {
+  font-family: "Red Hat Text", sans-serif;
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #b49b6b;
+  background-color: #fff8e7;
+  margin: 30px 0;
+  padding: 20px 25px;
+  line-height: 1.7;
+}
+a {
+  display: block;
+  background-color: #fff5d6;
+  color: #2a2a2a;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+a:hover {
+  background-color: #f1e0b5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+ul {
+  list-style: none; /* Remove default bullets */
+  margin: 25px 0;
+  padding-left: 0;
+}
+li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  line-height: 1.7;
+  color: #222;
+}
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #b49b6b; /* warm gold accent */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+@media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+
