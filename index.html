@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <!-- Font: DM Serif Display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +17,9 @@
 </head>
 <body>
     <!-- publication name/branding -->
-<header>
-<h2>Dear Design Student</h2>
-</header>
+  <header class="publication">
+    <h2>Dear Design Student</h2>
+  </header>
 <!-- article metadata -->
 
 <article>
@@ -27,22 +27,28 @@
     <h5>Andrii Zhdan <time datetime="2024-08-09">Aug 9, 2024</time></h5>
     <h1>If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 2)
     </h1>
+     <div class="summary-keywords">
+        <span>Career</span>
+        <span>Evergreen</span>
+        <span>Design</span>
+        <span>UX</span>
+      </div>
+
+      <!-- Share buttons -->
+      <div class="share-buttons">
+        Share on <button>Twitter</button> <button>LinkedIn</button>
+      </div>
 </header>
-<ul>
-    <li>17 min read</li>
-    <li><a>Career</a></li>, 
-    <li><a>Evergreen</a></li>, 
-    <li><a>Design</a></li>, 
-    <li><a>UX</a></li>
-    <li>Share on <button>Twitter</button> <button>LinkedIn</button></li>
-</ul>
-<aside>
-    <h4>Andrii Zhdan</h4>
-    <h5>About The Author</h5>
-    <p>Andrii is a UX designer with over 15 years of experience in the field. He started as a UX designer in an e-commerce agency and later became a product designer.</p>
+
+<aside class="author-capsule">
+  <h4>Andrii Zhdan</h4>
+  <h5>About The Author</h5>
+  <p>Andrii is a UX designer with over 15 years of experience in the field. He started as a UX designer in an e-commerce agency and later became a product designer.</p>
 </aside>
-<section>
-    <p><span>Quick summary:</span> In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. In Part 2, Andrii speaks about how you can grow faster in your brand-new junior UX job.</p>
+
+<!-- Intro summary -->
+<section class="intro-summary">
+  <p><strong>Quick summary:</strong> In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. In Part 2, Andrii speaks about how you can grow faster in your brand-new junior UX job.</p>
 </section>
 <p>In the previous article in my two-part series, I have explained how important it is to start by mastering your design tools, to work on your portfolio (even if you have very little work experience — which is to be expected at this stage), and to carefully prepare for your first design interviews.</p>
 <p>If all goes according to plan, and with a little bit of luck, you’ll land your first junior UX job — and then, of course, you’ll be facing more challenges, about which I am about to speak in this second article in my two-part article series.</p>
@@ -110,18 +116,28 @@
 <p>There are many excellent courses out there, and here are a few suggestions:</p>
 <ul>
     <li>
-        “<cite><a href="https://bootcamp.uxdesign.cc/free-ux-design-courses-21b81dcd51b">Selection of free UX design courses, including those offering certifications</a></cite>,” by Cheshta Dua
+        <a href="https://bootcamp.uxdesign.cc/free-ux-design-courses-21b81dcd51b">
+            Selection of free UX design courses, including those offering certifications
+        </a>
         <p>In this article, the author shares a few free UX design courses which helped her get started as a UX designer.</p>
     </li>
-    <li>“<cite><a href="https://www.uxdesigninstitute.com/blog/best-free-ux-design-courses-in-2022/">Best free UX design courses — 2024</a></cite>,” by Cynthia Vinney (UX Design Institute) 
+    <li>
+        <a href="https://www.uxdesigninstitute.com/blog/best-free-ux-design-courses-in-2022/">
+            Best free UX design courses — 2024
+        </a>
         <p>This is a comparison of a few free UX design courses, both online and in-person.</p>
     </li>
-    <li>“<a href="https://careerfoundry.com/en/blog/ux-design/best-free-ux-design-courses/">The 10 Best Free UX Design Courses in 2024</a>,” by Rachel Meltze (CareerFoundry) 
+    <li>
+        <a href="https://careerfoundry.com/en/blog/ux-design/best-free-ux-design-courses/">
+            The 10 Best Free UX Design Courses in 2024
+        </a>
         <p>A selection of free UX design courses — using these you can learn the fundamentals of UX design, the tools designers use, and more about the UX design career path.</p>
     </li>
     <li>
-        “<a href="https://geoffgraham.me/the-basics-dev/">The HTML/CSS Basics (.dev)</a>,” by Geoff Graham
-        <p>The Basics is an excellent online course that teaches the basic principles of front-end development. It’s a good “entry point” for those just coming into front-end development or perhaps for someone with experience writing code from years ago who wants to jump into modern-day development.</p>
+        <a href="https://geoffgraham.me/the-basics-dev/">
+            The HTML/CSS Basics (.dev)
+        </a>
+        <p>The Basics is an excellent online course that teaches the basic principles of front-end development. It's a good “entry point” for those just coming into front-end development or someone with prior experience wanting a modern update.</p>
     </li>
 </ul>
 <h2>Practice, Practice, Practice #</h2>
